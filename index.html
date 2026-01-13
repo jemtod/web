@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Creative Programmer">
+    <title>DevPortfolio | Building the Future</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">JAMA<span class="accent">.</span></a>
+        <div class="nav-links">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="block-reveal">Code</span>
+                    <span class="block-reveal accent-text">Vision</span>
+                    <span class="block-reveal">Reality</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up">I craft digital experiences that live on the web.</p>
+                <div class="hero-cta fade-in-up delay-1">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <!-- Abstract geometric animation or code snippet visual -->
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="window-body">
+                        <pre><code><span class="keyword">const</span> <span class="var">developer</span> = {
+    <span class="prop">name</span>: <span class="string">'Jama'</span>,
+    <span class="prop">passion</span>: <span class="string">'Building Dreams'</span>,
+    <span class="prop">skills</span>: [<span class="string">'Code'</span>, <span class="string">'Design'</span>, <span class="string">'Innovate'</span>],
+    <span class="func">solve</span>: <span class="keyword">function</span>() {
+        <span class="return">return</span> <span class="strong">true</span>;
+    }
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title fade-on-scroll">About Me<span class="accent">.</span></h2>
+                <div class="about-grid">
+                    <div class="about-text fade-on-scroll">
+                        <p>I am a passionate developer who bridges the gap between design and engineering. My goal is to
+                            add value through technology and create interfaces that adhere to the highest standards of
+                            usability and performance.</p>
+                        <div class="skills-wrapper">
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">React</div>
+                            <div class="skill-tag">Node.js</div>
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">UI/UX</div>
+                            <div class="skill-tag">Design Systems</div>
+                        </div>
+                    </div>
+                    <div class="stats-container fade-on-scroll delay-1">
+                        <div class="stat-card">
+                            <h3 class="stat-number" data-target="5">0</h3>
+                            <p class="stat-label">Years Exp.</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="stat-number" data-target="50">0</h3>
+                            <p class="stat-label">Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="stat-number" data-target="100">0</h3>
+                            <p class="stat-label">Satisfied</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title fade-on-scroll">Selected Work<span class="accent">.</span></h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card fade-on-scroll">
+                        <div class="project-image">
+                            <div class="placeholder-img gradient-1"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">E-Commerce Core</h3>
+                            <p class="project-desc">A full-stack shopping platform with real-time inventory management.
+                            </p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="icon-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="icon-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card fade-on-scroll delay-1">
+                        <div class="project-image">
+                            <div class="placeholder-img gradient-2"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Finance Dashboard</h3>
+                            <p class="project-desc">Data visualization tool for personal finance tracking.</p>
+                            <div class="project-tags">
+                                <span>Vue.js</span>
+                                <span>D3.js</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="icon-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="icon-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card fade-on-scroll delay-2">
+                        <div class="project-image">
+                            <div class="placeholder-img gradient-3"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">AI Chat Interface</h3>
+                            <p class="project-desc">Modern chat UI with streaming response integration.</p>
+                            <div class="project-tags">
+                                <span>Next.js</span>
+                                <span>Tailwind</span>
+                                <span>OpenAI API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="icon-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="icon-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-wrapper fade-on-scroll">
+                    <h2 class="section-title">Let's Connect<span class="accent">.</span></h2>
+                    <p class="contact-text">Have a project in mind? Let's build something amazing together.</p>
+                    <a href="mailto:contact@sijama.me" class="email-link">contact@sijama.me</a>
+
+                    <div class="social-links">
+                        <a href="https://github.com/jemtod" class="social-btn">GitHub</a>
+                        <a href="#" class="social-btn">LinkedIn</a>
+                        <a href="#" class="social-btn">Twitter</a>
+                        <a href="https://instagram.com/murzeme" class="social-btn">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 JamaDev. <span class="heart">♥</span> Trust Process.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
